@@ -12,31 +12,11 @@
 | 강민지 (팀원) | 유병욱 (팀원) | 이현비 (팀원) |
 | --- | --- | --- |
 | Frontend| Frontend 리더, Block Chain | Frontend |
-| **[Flutter]**<br>- Auth : 회원가입, 로그인, 휴대폰인증, 마이페이지<br>- Main : 메인 화면 및 배너, 하단 네비게이션<br>**[React]**<br>**[Figma UI/UX 디자인]**<br>**[UCC 제작]** | **[Flutter]**<br>- 블록체인 로직 이식<br>- 추모관 무한스크롤 퍼블리싱<br>**[Block Chain]**<br>- 스마트 컨트랙트 배포<br>- FE - Block Chain 이식<br>- IPFS : 설정 / 노드 구성 | **[Flutter]**<br>- 추모관 : 파일 업로드, 즐겨찾기, 검색, 리스트<br>- 유언 생성 : 녹음, 재생, 열람인, 증인, 선택사항<br>**[React]**<br>- 증인 유언장 열람 신청, 열람인 유언장 열람 신청, 유언장 |
+
 
 | 김유나 (팀장) | 유세진 (팀원) | 한재현 (팀원) |
 | --- | --- | --- |
-| Backend, CI/CD | Backend, CI/CD | Backend 리더, Block Chain |
-| [Backend]
-- 유언 도메인 API 구현
-- 유언 생성, 관련 정보 저장, 나의 유언 조회 및 삭제, 유언 열람 신청, 인증 코드 확인
-- 유언 파일, 묘비 사진 S3 컨텐츠 업로드, 조회 및 삭제
-
-[CI/CD]
-- AWS EC2 기본 설정 및 Docker, Jenkins 설치
-- React 빌드 및 배포 | [Backend]
-- 디지털 추모관 도메인 API 구현
-- 추모관 리스트, 즐겨찾기, 디테일
-- No-offset 기반의 사진/동영상/편지(이하 컨텐츠) 목록 조회, S3 기반의 컨텐츠 업로드 및 조회, 신고하기
-
-[CI/CD]
-- Jenkins 초기 설치 및 기본 설정
-- Jenkinsfile 및 Dockerfile 작성
-- Spring Boot 자동 빌드 및 자동 배포 구축 | [Backend]
-- 유저 도메인 API 구현
-- Oauth2를 이용한 소셜 로그인 구현
-- Spring Security + JWT를 활용하여 다른 로그인 시스템에 접근 및 권한 공유
-- 자주 접근하고, 자주 바뀌지 않는 데이터를 저장하기 위해 Redis 사용 |
+| Backend, CI/CD | Backend, CI/CD | Backend 리더 |
 
 ## ✏ 개요
 
@@ -584,7 +564,7 @@ Agile 방법론을 기반으로 한 프로젝트 관리 도구로서 Jira를 이
 <summary>Frontend - Flutter</summary>
 <div markdown="1">
 
-📦lib
+     📦lib
          ┣ 📂models
          ┃ ┣ 📂memorial
          ┃ ┃ ┣ 📜memorial_grave_model.dart
@@ -728,7 +708,7 @@ Agile 방법론을 기반으로 한 프로젝트 관리 도구로서 Jira를 이
 <summary>Frontend - React</summary>
 <div markdown="1">
 
-📦src
+    📦src
          ┣ 📂hooks
          ┃ ┣ 📜blockCall.js
          ┃ ┣ 📜blockChainHash.js
