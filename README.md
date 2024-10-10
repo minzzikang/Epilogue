@@ -80,9 +80,6 @@
 - Mattermost
 
 ## ⚒ 주요 기능
-
-[기능 GIF](https://www.notion.so/GIF-2b8589131a294b7a8d05b6932bafef9e?pvs=21)
-
 ### 1️⃣ 디지털 유언 생성
 
 - 증인 정보 입력 (최대 5명)
