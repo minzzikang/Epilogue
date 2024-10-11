@@ -176,11 +176,17 @@ Agile 방법론을 기반으로 한 프로젝트 관리 도구로서 Jira를 이
 
 매일 아침 9시에 어제 했던 일, 오늘 할 일, 이슈를 각자 정리해서 5~10분 동안 서로 공유하는 시간을 가졌습니다. 이를 통해 팀원들은 프로젝트의 전반적인 상태를 이해하고 필요한 조치를 취할 수 있었고, 자신의 작업을 공유하고 문제점이나 진전 사항을 토론할 수 있었습니다.
 
-## 🔍 ERD
+## 📃 산출물
+[요구사항 명세서](https://www.notion.so/11c9508757c28072bb41f1a316ce20f8) |
+[기능 명세서](https://www.notion.so/11b9508757c2815dba08d5ff97cfe4be) |
+[API 명세](https://www.notion.so/API-11b9508757c28122ab69cea1ff0d5cbb) |
+[화면 설계](https://www.notion.so/11b9508757c28127a78ff5732c51b11a)
+
+### 🔍 ERD
 
 ![image.png](./exec/image.png)
 
-## 📉 시스템 아키텍처
+### 📉 시스템 아키텍처
 
 ![image-1.png](./exec/image-1.png)
 
